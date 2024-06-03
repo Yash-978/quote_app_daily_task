@@ -11,31 +11,29 @@ class _DialogueBoxState extends State<DialogueBox> {
   Widget build(BuildContext context) {
     return Scaffold(
     body: Column(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
-        // TextButton(onPressed: () {
-        //   showDialog<String>(
-        //     context: context,
-        //     builder: (BuildContext context) => Dialog(
-        //       child: Padding(
-        //         padding: const EdgeInsets.all(8.0),
-        //         child: Column(
-        //           mainAxisSize: MainAxisSize.min,
-        //           mainAxisAlignment: MainAxisAlignment.center,
-        //           children: <Widget>[
-        //             const Text('This is a typical dialog.'),
-        //             const SizedBox(height: 15),
-        //             TextButton(
-        //               onPressed: () {
-        //                 Navigator.pop(context);
-        //               },
-        //               child: const Text('Close'),
-        //             ),
-        //           ],
-        //         ),
-        //       ),
-        //     ),
-        //   ),
-        // }, child: child)
+        Center(
+          child: ElevatedButton(onPressed: () {
+            showDialog(context: context, builder: (context) {
+              return AlertDialog(
+                title: Text('A dialog in Flutter is usually an overlay on top of the app content. It can be dismissed by tapping outside the dialog popup, pressing a button, or completing an action within the dialog box'),
+                actions: [
+                    ElevatedButton(onPressed: () {
+                      Navigator.of(context).pop();
+
+                    }, child: Text('Cancel '),),
+                    ElevatedButton(onPressed: () {
+                      Navigator.of(context).pop();
+
+
+                    }, child: Text('Ok'),)
+                ],
+              );
+            },);
+          }, child: Text('Show Dialog Box')),
+        ),
+
       ],
     ),
 
