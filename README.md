@@ -21,3 +21,17 @@
 2. Create the Model Class: Define the CounterModel class with necessary state and methods.
 3. Set Up the Provider: Configure the provider in the widget tree.
 4. Use the Model in the UI: Use the Consumer widget to access and modify the model in the UI.
+
+
+
+<h3 align = "center"> Home Screen </h3>
+<p align = "center">
+<img src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/9ef25570-509b-456c-b5f9-e843d350b17a" width=35%
+height=22% >
+
+<h3 align = "center"> Dialog Box </h3>
+<p align = "center">
+<img src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/f81a1b22-d846-4933-8f0d-14b3b18bd1ab" width=35%
+height=22% >
+
+
