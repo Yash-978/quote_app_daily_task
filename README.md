@@ -35,3 +35,8 @@ height=22% >
 height=22% >
 
 
+
+<h3 align = "center"> Quotes </h3>
+<p align = "center">
+<img src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/98e40d3a-8dac-41aa-ab16-8109e773afcf" width=35%
+height=22% >
