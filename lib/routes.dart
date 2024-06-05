@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'DialogueBox/dialogueBox.dart';
 import 'QuoteApp/QuotesHomeScreen.dart';
+import 'Toggle_List/toggle.dart';
 
 class AppRoutes
 {
@@ -9,7 +10,8 @@ class AppRoutes
 
     // '/':(context)=>DialogueBox(),
     // '/quote':(context)=>Quote_HomeScreen(),
-    '/':(context)=>Quote_HomeScreen(),
+    // '/':(context)=>Quote_HomeScreen(),
+    '/':(context)=>ToggleList(),
 
   };
 }
