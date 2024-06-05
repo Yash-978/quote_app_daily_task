@@ -36,7 +36,20 @@ height=22% >
 
 
 
+
+
+
+
+
+
 <h3 align = "center"> Quotes </h3>
 <p align = "center">
 <img src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/98e40d3a-8dac-41aa-ab16-8109e773afcf" width=35%
 height=22% >
+
+<h3 align = "center"> Quotes Video </h3>
+  
+<div align = "center">
+<video src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/c1a438e6-34f0-40f5-95ee-52bebe59a6e5" width=35%
+height=22% >
+</div>
