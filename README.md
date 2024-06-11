@@ -77,3 +77,23 @@ height=22% >
 <video src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/9bf88980-2d2e-4d44-96ff-15fb1d622ce1" width=35%
 height=22% >
 </div>
+
+  
+<h3 align = "center"> Invoice Bill Generator </h3>
+<p align = "center">
+<img src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/3730387a-056b-4a73-8f47-c441c829c744" width=35%
+height=22% >
+
+
+  
+<h3 align = "center"> Detail </h3>
+<p align = "center">
+<img src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/fb890b0a-d9f8-4d7f-b5b8-e10ebd6df3e4" width=35%
+height=22% >
+
+<h3 align = "center"> Pdf Page </h3>
+<p align = "center">
+<img src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/01d6eede-e0cf-48ed-aecc-8cbc7f3ec476" width=35%
+height=22% >
+
+
