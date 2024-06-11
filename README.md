@@ -53,3 +53,27 @@ height=22% >
 <video src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/c1a438e6-34f0-40f5-95ee-52bebe59a6e5" width=35%
 height=22% >
 </div>
+
+
+  
+<h3 align = "center"> Toggle List View </h3>
+<p align = "center">
+<img src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/13400c4b-52e7-46c9-8d13-22e7d4a56746" width=35%
+height=22% >
+
+
+
+<h3 align = "center"> Toggle Grid View </h3>
+<p align = "center">
+<img src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/7edf210b-5d9f-406f-81c1-7a8a27e34d45" width=35%
+height=22% >
+
+
+
+
+
+
+<div align = "center">
+<video src= "https://github.com/Yash-978/quote_app_daily_task/assets/147479013/9bf88980-2d2e-4d44-96ff-15fb1d622ce1" width=35%
+height=22% >
+</div>
