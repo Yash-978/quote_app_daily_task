@@ -39,13 +39,19 @@ class _ToggleListState extends State<ToggleList> {
                   value: 'ListView',
                   label: Text(
                     'ListView',
-                    style: TextStyle(fontSize: 20),
+                    style: TextStyle(fontSize: 15),
                   ),
-                  icon: const Icon(Icons.list_alt)),
+                  icon: const Icon(
+                    Icons.list_alt,
+                    size: 25,
+                  )),
               ButtonSegment<String>(
                 value: 'GridView',
-                label: Text('GridView', style: TextStyle(fontSize: 20)),
-                icon: const Icon(Icons.apps_rounded),
+                label: Text('GridView', style: TextStyle(fontSize: 15)),
+                icon: const Icon(
+                  Icons.apps_rounded,
+                  size: 25,
+                ),
               ),
             ],
             selected: _selected,
@@ -60,39 +66,40 @@ class _ToggleListState extends State<ToggleList> {
       ),
       body: Stack(
         children: [
-          (changeToggle)?
-          GridView.builder(
-            itemCount: quoteModel!.quoteModel_List.length,
-            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2,
-              childAspectRatio: 1
-            ),
-            itemBuilder: (context, index) => Card(
-              child: ListTile(
-                title: Text(
-                  quoteModel!.quoteModel_List[index].quote!,style: TextStyle(
-
-                ),
-                ),
-                subtitle: Text(
-                  quoteModel!.quoteModel_List[index].author!,
-                ),
-              ),
-            ),
-          ):
-          ListView.builder(
-            itemCount: quoteModel!.quoteModel_List.length,
-            itemBuilder: (context, index) => Card(
-              child: ListTile(
-                title: Text(
-                  quoteModel!.quoteModel_List[index].quote!,
-                ),
-                subtitle: Text(
-                  quoteModel!.quoteModel_List[index].author!,
-                ),
-              ),
-            ),
-          )
+          (changeToggle)
+              ? GridView.builder(
+                  itemCount: quoteModel!.quoteModel_List.length,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 2, childAspectRatio: 0.8),
+                  itemBuilder: (context, index) => Card(
+                    color:
+                        HomeScreenColorlist[index % HomeScreenColorlist.length],
+                    child: ListTile(
+                      title: Text(
+                        quoteModel!.quoteModel_List[index].quote!,
+                        style: TextStyle(),
+                      ),
+                      subtitle: Text(
+                        quoteModel!.quoteModel_List[index].author!,
+                      ),
+                    ),
+                  ),
+                )
+              : ListView.builder(
+                  itemCount: quoteModel!.quoteModel_List.length,
+                  itemBuilder: (context, index) => Card(
+                    color:
+                        HomeScreenColorlist[index % HomeScreenColorlist.length],
+                    child: ListTile(
+                      title: Text(
+                        quoteModel!.quoteModel_List[index].quote!,
+                      ),
+                      subtitle: Text(
+                        quoteModel!.quoteModel_List[index].author!,
+                      ),
+                    ),
+                  ),
+                )
         ],
       ),
     ));
@@ -104,6 +111,13 @@ class _ToggleListState extends State<ToggleList> {
     });
   }
 }
+
+List HomeScreenColorlist = [
+  Color(0xffB2EDFD),
+  Color(0xffC3F6BC),
+  Color(0xffFFE9A6),
+  Color(0xffDBCCFD),
+];
 // SegmentedButton(
 //   multiSelectionEnabled: false,
 //   segments: [
